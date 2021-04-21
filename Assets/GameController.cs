@@ -71,7 +71,7 @@ public class GameController : MonoBehaviour
         health -= dps;
         if(health <= 0)
         {
-            money += System.Math.Ceiling(healthcap / 14);
+            money += System.Math.Ceiling(healthcap / 14) * stage;
             health = healthcap;
             if (stage == stagemax){
             kills += 1;
