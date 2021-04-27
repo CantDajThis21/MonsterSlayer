@@ -297,6 +297,7 @@ MonoBehaviour:
   timermax: 0
   back: {fileID: 132620196}
   forward: {fileID: 672232021}
+  timericon: {fileID: 1508661105}
   healthbar: {fileID: 1825459925}
   timerbar: {fileID: 1027041649}
 --- !u!4 &300377836
