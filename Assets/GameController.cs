@@ -134,7 +134,10 @@ public class GameController : MonoBehaviour
             }
         }
     }
-
+    public void OnMouseDown(){
+        Hit();
+    }
+    
     public void Hit()
     {
         health -= dps;
