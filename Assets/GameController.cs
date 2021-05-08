@@ -12,9 +12,8 @@ public class GameController : MonoBehaviour
     public TMP_Text killstxt;
     public TMP_Text healthtxt;
     public TMP_Text timertext;
-    public TMP_Text BossText;
 
-    public float StartTime = 60;
+    public float StartTime = 30;
 
     public double money;
     public double dps;
@@ -35,6 +34,7 @@ public class GameController : MonoBehaviour
     public GameObject forward;
 
     public Image healthbar;
+    public Image timericon;
 
     public void Start()
     {
@@ -43,9 +43,9 @@ public class GameController : MonoBehaviour
         stagemax = 1;
         killsMax = 10;
         health = 10;
-        isBoss = 1;
-        BossText.gameObject.SetActive(false);
- 
+        isBoss = 1; 
+        timertext.text = StartTime.ToString("0");
+        timericon.gameObject.SetActive(false);
     }
 
     public void Update()
@@ -55,6 +55,8 @@ public class GameController : MonoBehaviour
         killstxt.text = kills + "/" + killsMax;
         healthtxt.text = health + "/" + healthcap;
         dpstxt.text = "" + dps;
+        timericon.gameObject.SetActive(false);
+        timertext.gameObject.SetActive(false);
         
         healthbar.fillAmount = (float)(health / healthcap);
 
@@ -69,13 +71,25 @@ public class GameController : MonoBehaviour
             }
         else 
             back.gameObject.SetActive(false);
-        
+       
+        if (stage == 10){
+            if (kills == 9){
+                timericon.gameObject.SetActive(true);
+                timertext.gameObject.SetActive(true);
+                StartTime -= Time.deltaTime;
+                timertext.text = StartTime.ToString("0");
+            }
+        }
+
     }
 
 
     public void IsBossChecker(){
         if(stagemax % 10 == 0){
             BossHealth();
+        }
+        else{
+            isBoss = 1;
         }    
     }
 
@@ -85,10 +99,13 @@ public class GameController : MonoBehaviour
             if (kills == 9){
                 isBoss = 10;
                 health = healthcap;
-                stagetxt.gameObject.SetActive(false);
-                BossText.gameObject.SetActive(true);
+                stagetxt.text = "Stage" + stage;
+                StartTime -= Time.deltaTime;
+                timericon.gameObject.SetActive(true);
+                timertext.text = StartTime.ToString("0");
             }
         }
+
     }
     public void OnMouseDown(){
         Hit();
@@ -121,6 +138,20 @@ public class GameController : MonoBehaviour
             healthtxt.text = health + "/" + healthcap; 
             kills = 0;
         }
+        if (stage == 10){
+            if (kills == 9){
+                isBoss = 10;
+                health = healthcap;
+                stagetxt.text = "Stage" + stage;
+                timericon.gameObject.SetActive(true);
+                timertext.gameObject.SetActive(true);
+                StartTime -= Time.deltaTime;
+                timertext.text = StartTime.ToString("0");
+            }
+            else{
+                isBoss = 1;
+            }
+        }
     }
 
     public void Forward()
@@ -128,6 +159,20 @@ public class GameController : MonoBehaviour
         if (stage != stagemax){
             stage +=1;
             kills = 0;
+        }
+        if (stage == 10){
+            if (kills == 9){
+                isBoss = 10;
+                health = healthcap;
+                stagetxt.text = "Stage" + stage;
+                timericon.gameObject.SetActive(true);
+                timertext.gameObject.SetActive(true);
+                StartTime -= Time.deltaTime;
+                timertext.text = StartTime.ToString("0");
+            }
+            else{
+                isBoss = 1;
+            }
         }
     }
 
