@@ -470,7 +470,7 @@ MonoBehaviour:
   timertext: {fileID: 412720612}
   StartTime: 30
   money: 0
-  dps: 10000
+  dps: 10
   health: 0
   stage: 0
   stagemax: 0
