@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using BreakInfinity;
+
 
 public class GameController : MonoBehaviour
 {
@@ -38,6 +40,11 @@ public class GameController : MonoBehaviour
         timertext.gameObject.SetActive(false);
         
         healthbar.fillAmount = (float)(gamedata.health / gamedata.healthcap);
+
+        if(gamedata.dps > 1e3){
+                BigDouble.Divide(gamedata.dps, 1e3);
+                BigDouble.Truncate(gamedata.dps);
+        }
 
        if(gamedata.stagemax % 10 == 0){
             if(gamedata.kills == 9){
@@ -80,9 +87,9 @@ public class GameController : MonoBehaviour
         gamedata.health -= gamedata.dps;
         if(gamedata.health <= 0)
         {
-            gamedata.money += System.Math.Ceiling((gamedata.healthcap / 1000) * gamedata.kills + 1);
+            gamedata.money += BigDouble.Multiply(BigDouble.Ceiling(BigDouble.Divide(gamedata.healthcap, 1000)), gamedata.kills + 1);
             if (gamedata.stage == gamedata.stagemax){
-            gamedata.kills += 1;
+                 gamedata.kills += 1;
                 if(gamedata.kills >= gamedata.killsMax){
                     gamedata.kills = 0;
                     gamedata.stagemax += 1;
@@ -93,7 +100,7 @@ public class GameController : MonoBehaviour
             gamedata.health = gamedata.healthcap;
             
         }
-    }
+     }
 
 }
 
