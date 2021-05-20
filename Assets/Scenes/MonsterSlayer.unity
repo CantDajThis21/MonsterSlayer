@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 24187084}
   - component: {fileID: 24187083}
   m_Layer: 0
-  m_Name: Sky Sprite10
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,11 +196,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24187082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -487.158, y: -43.998, z: -0.214}
-  m_LocalScale: {x: 0.3897406, y: 0.40617794, z: 0.21632567}
+  m_LocalPosition: {x: -0.10812378, y: 0.05505371, z: 97.697}
+  m_LocalScale: {x: 0.8053877, y: 0.7867549, z: 0.43265134}
   m_Children: []
-  m_Father: {fileID: 1256854572}
-  m_RootOrder: 9
+  m_Father: {fileID: 1109138957}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &179944319
 GameObject:
@@ -214,12 +214,12 @@ GameObject:
   - component: {fileID: 179944322}
   - component: {fileID: 179944321}
   m_Layer: 0
-  m_Name: Sky Lang_0
+  m_Name: Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &179944320
 Transform:
   m_ObjectHideFlags: 0
@@ -228,11 +228,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179944319}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -487.037, y: -44.129, z: -0.318}
-  m_LocalScale: {x: 0.42385557, y: 0.44133404, z: 0.2222287}
+  m_LocalPosition: {x: 0.13986206, y: -0.19897461, z: 97.489}
+  m_LocalScale: {x: 0.87588525, y: 0.85485125, z: 0.4444574}
   m_Children: []
-  m_Father: {fileID: 1256854572}
-  m_RootOrder: 8
+  m_Father: {fileID: 1109138957}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &179944321
 Animator:
@@ -304,6 +304,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &310514838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310514839}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &310514839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310514838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1129664117}
+  m_Father: {fileID: 1109138957}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390290815
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +620,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 518441257}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -1207,7 +1238,7 @@ GameObject:
   - component: {fileID: 902946694}
   - component: {fileID: 902946695}
   m_Layer: 0
-  m_Name: Sky Sprite
+  m_Name: Skies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1221,11 +1252,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902946693}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -487.151, y: -44.034, z: -0.141}
-  m_LocalScale: {x: 0.39309824, y: 0.41290858, z: 0.26188275}
+  m_LocalPosition: {x: -0.09613037, y: -0.012939453, z: 97.843}
+  m_LocalScale: {x: 0.8123262, y: 0.799792, z: 0.5237655}
   m_Children: []
-  m_Father: {fileID: 1256854572}
-  m_RootOrder: 10
+  m_Father: {fileID: 1109138957}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &902946695
 SpriteRenderer:
@@ -1498,7 +1529,7 @@ GameObject:
   - component: {fileID: 1109138955}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1562,9 +1593,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109138954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -614.32, y: 552.1, z: -98.125}
+  m_LocalPosition: {x: -32.90387, y: 45.612915, z: -98.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 310514839}
+  - {fileID: 179944320}
+  - {fileID: 24187084}
+  - {fileID: 902946694}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1656,7 +1691,7 @@ GameObject:
   - component: {fileID: 1129664118}
   - component: {fileID: 1129664120}
   m_Layer: 0
-  m_Name: Slime Sprite_0
+  m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,11 +1705,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129664116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -487.126, y: -44.201, z: -0.476}
-  m_LocalScale: {x: 0.008379567, y: 0.008725115, z: 0.004393432}
+  m_LocalPosition: {x: -0.044128418, y: -0.3369751, z: 97.173}
+  m_LocalScale: {x: 0.017316135, y: 0.016900295, z: 0.008786864}
   m_Children: []
-  m_Father: {fileID: 1256854572}
-  m_RootOrder: 7
+  m_Father: {fileID: 310514839}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1129664118
 MonoBehaviour:
@@ -1972,10 +2007,6 @@ RectTransform:
   - {fileID: 518441255}
   - {fileID: 1825459924}
   - {fileID: 1150909253}
-  - {fileID: 1129664117}
-  - {fileID: 179944320}
-  - {fileID: 24187084}
-  - {fileID: 902946694}
   - {fileID: 1996965476}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2663,7 +2694,7 @@ RectTransform:
   - {fileID: 554432434}
   - {fileID: 390290816}
   m_Father: {fileID: 1256854572}
-  m_RootOrder: 11
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

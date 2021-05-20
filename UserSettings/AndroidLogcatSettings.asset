@@ -1,0 +1,131 @@
+{
+    "m_SelectedDeviceId": "XEC6R20707008904",
+    "m_SelectedPackage": {
+        "deviceId": "XEC6R20707008904",
+        "name": "com.DefaultCompany.MonsterSlayer",
+        "processId": 32194,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 27159,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 27565,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 28116,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 28510,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 29097,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 29426,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 29865,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 30785,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 31307,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 18919,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 32194,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
