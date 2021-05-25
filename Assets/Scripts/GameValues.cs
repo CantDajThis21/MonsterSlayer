@@ -23,7 +23,7 @@ public class GameValues {
     public int isBoss;
 
 public GameValues(){
-        dps = 1.5e10;
+        dps = 1001;
         stage = 1;
         stagemax = 1;
         killsMax = 10;

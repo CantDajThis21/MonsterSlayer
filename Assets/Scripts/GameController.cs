@@ -9,6 +9,7 @@ using BreakInfinity;
 public class GameController : MonoBehaviour
 {
     public GameValues gamedata;
+    public Abbreviations ab;
 
     public TMP_Text moneytxt;
     public TMP_Text dpstxt;
@@ -25,26 +26,23 @@ public class GameController : MonoBehaviour
     public void Start()
     {
         gamedata = new GameValues();
+        ab = new Abbreviations();
         timertext.text = StartTime.ToString("0");
         timericon.gameObject.SetActive(false);
     }
 
     public void Update()
-    {
-        moneytxt.text = "" + gamedata.money;
+    {   
+        
+        moneytxt.text = "" + ab.Abbrevs(gamedata.money);
         stagetxt.text = "" + gamedata.stage;
         killstxt.text = gamedata.kills + "/" + gamedata.killsMax;
-        healthtxt.text = gamedata.health + "/" + gamedata.healthcap;
-        dpstxt.text = "" + gamedata.dps;
+        healthtxt.text = ab.Abbrevs(gamedata.health) + "/" + ab.Abbrevs(gamedata.healthcap);
+        dpstxt.text = "" + ab.Abbrevs(gamedata.dps);
         timericon.gameObject.SetActive(false);
         timertext.gameObject.SetActive(false);
         
         healthbar.fillAmount = (float)(gamedata.health / gamedata.healthcap);
-
-        if(gamedata.dps > 1e3){
-                BigDouble.Divide(gamedata.dps, 1e3);
-                BigDouble.Truncate(gamedata.dps);
-        }
 
        if(gamedata.stagemax % 10 == 0){
             if(gamedata.kills == 9){

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "XEC6R20707008904",
         "name": "com.DefaultCompany.MonsterSlayer",
-        "processId": 32194,
+        "processId": 6278,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,54 @@
             "deviceId": "XEC6R20707008904",
             "name": "com.DefaultCompany.MonsterSlayer",
             "processId": 32194,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 4651,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 8208,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 4635,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 5022,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 5282,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 5647,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 5995,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 6278,
             "exited": false
         }
     ],
