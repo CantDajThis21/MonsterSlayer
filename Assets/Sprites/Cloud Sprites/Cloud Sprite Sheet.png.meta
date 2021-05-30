@@ -1,37 +1,7 @@
 fileFormatVersion: 2
 guid: 6b36cd9a12ce34c4fb70b59ecced2a42
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 4901185508739074817
-    second: Cloud Sprite Sheet_0
-  - first:
-      213: 1099302463530255577
-    second: Cloud Sprite Sheet_1
-  - first:
-      213: -1004710738223423127
-    second: Cloud Sprite Sheet_2
-  - first:
-      213: -3997582487008347818
-    second: Cloud Sprite Sheet_3
-  - first:
-      213: -2883547347333277094
-    second: Cloud Sprite Sheet_4
-  - first:
-      213: 318844299516935279
-    second: Cloud Sprite Sheet_5
-  - first:
-      213: -8357619330349314683
-    second: Cloud Sprite Sheet_6
-  - first:
-      213: 6466457570586476938
-    second: Cloud Sprite Sheet_7
-  - first:
-      213: -5934627829220058545
-    second: Cloud Sprite Sheet_8
-  - first:
-      213: 6310305885231374836
-    second: Cloud Sprite Sheet_9
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,43 +64,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,217 +73,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10b4faaa042840440800000000000000
-      internalID: 4901185508739074817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d4ce6724c1814f00800000000000000
-      internalID: 1099302463530255577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9612c2228ec8e02f0800000000000000
-      internalID: -1004710738223423127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6597b8d78ebb588c0800000000000000
-      internalID: -3997582487008347818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 2880
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5a1e2d17f49bf7d0800000000000000
-      internalID: -2883547347333277094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6c7d5b7333cc6400800000000000000
-      internalID: 318844299516935279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 4320
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58d4796ef75c30c80800000000000000
-      internalID: -8357619330349314683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 5040
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8141f156e87db950800000000000000
-      internalID: 6466457570586476938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4ad03dae67f3ada0800000000000000
-      internalID: -5934627829220058545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cloud Sprite Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 6480
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f1e549e4c5b29750800000000000000
-      internalID: 6310305885231374836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "XEC6R20707008904",
         "name": "com.DefaultCompany.MonsterSlayer",
-        "processId": 6278,
+        "processId": 30036,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -120,6 +120,78 @@
             "deviceId": "XEC6R20707008904",
             "name": "com.DefaultCompany.MonsterSlayer",
             "processId": 6278,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 6845,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 7418,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 16071,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 20608,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 4198,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 7873,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 26915,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 27772,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 28263,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 28942,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 29520,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 30036,
             "exited": false
         }
     ],

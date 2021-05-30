@@ -3,29 +3,29 @@ guid: d0544efa0afcb3d49b121eab85683203
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -205763474477811735
-    second: Slime Sprite_0
+      213: 211459655750337699
+    second: Slime Sprite 1_0
   - first:
-      213: -5758491623290895266
-    second: Slime Sprite_1
+      213: -5021210820444276804
+    second: Slime Sprite 1_1
   - first:
-      213: 1538873854359767378
-    second: Slime Sprite_2
+      213: -8534454353226097350
+    second: Slime Sprite 1_2
   - first:
-      213: -5197150466151690604
-    second: Slime Sprite_3
+      213: -267679489530862263
+    second: Slime Sprite 1_3
   - first:
-      213: -7423232412056866285
-    second: Slime Sprite_4
+      213: 1752454193294877987
+    second: Slime Sprite 1_4
   - first:
-      213: 8308232093459915142
-    second: Slime Sprite_5
+      213: -7665654340033081118
+    second: Slime Sprite 1_5
   - first:
-      213: -2586604897230165182
-    second: Slime Sprite_6
+      213: -8116952573983939740
+    second: Slime Sprite 1_6
   - first:
-      213: 5129786745720219690
-    second: Slime Sprite_7
+      213: 6920025131735750146
+    second: Slime Sprite 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -85,7 +85,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -97,7 +97,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,7 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -121,7 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -135,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime Sprite_0
+      name: Slime Sprite 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7fffbc53bf42df0800000000000000
-      internalID: -205763474477811735
+      spriteID: 3a44351cf614fe200800000000000000
+      internalID: 211459655750337699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_1
+      name: Slime Sprite 1_1
       rect:
         serializedVersion: 2
         x: 100
@@ -170,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e540fafd06ab510b0800000000000000
-      internalID: -5758491623290895266
+      spriteID: cb73211cc53115ab0800000000000000
+      internalID: -5021210820444276804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_2
+      name: Slime Sprite 1_2
       rect:
         serializedVersion: 2
         x: 200
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25900430e9d2b5510800000000000000
-      internalID: 1538873854359767378
+      spriteID: a3d1c24bbf68f8980800000000000000
+      internalID: -8534454353226097350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_3
+      name: Slime Sprite 1_3
       rect:
         serializedVersion: 2
         x: 300
@@ -212,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49ec5cccf2300e7b0800000000000000
-      internalID: -5197150466151690604
+      spriteID: 945ead82ce2094cf0800000000000000
+      internalID: -267679489530862263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_4
+      name: Slime Sprite 1_4
       rect:
         serializedVersion: 2
         x: 400
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3123f2283716bf890800000000000000
-      internalID: -7423232412056866285
+      spriteID: 3252c7ccdc7f15810800000000000000
+      internalID: 1752454193294877987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_5
+      name: Slime Sprite 1_5
       rect:
         serializedVersion: 2
         x: 500
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 681ad22f115cc4370800000000000000
-      internalID: 8308232093459915142
+      spriteID: 2e0956bfdff1e9590800000000000000
+      internalID: -7665654340033081118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_6
+      name: Slime Sprite 1_6
       rect:
         serializedVersion: 2
         x: 600
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b6f46ec888a1cd0800000000000000
-      internalID: -2586604897230165182
+      spriteID: 463aef0b3aaca5f80800000000000000
+      internalID: -8116952573983939740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime Sprite_7
+      name: Slime Sprite 1_7
       rect:
         serializedVersion: 2
         x: 700
@@ -296,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a282920ddd9a03740800000000000000
-      internalID: 5129786745720219690
+      spriteID: 20692e5813ed80060800000000000000
+      internalID: 6920025131735750146
       vertices: []
       indices: 
       edges: []

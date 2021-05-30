@@ -1,76 +1,7 @@
 fileFormatVersion: 2
 guid: 6616936320f05174895cff968c153d2c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -711474710159408193
-    second: Monster Slayer-Sheet_0
-  - first:
-      213: 4310063104651417886
-    second: Monster Slayer-Sheet_1
-  - first:
-      213: 6736978571008025070
-    second: Monster Slayer-Sheet_2
-  - first:
-      213: 4529836539300846720
-    second: Monster Slayer-Sheet_3
-  - first:
-      213: -1447953800031585916
-    second: Monster Slayer-Sheet_4
-  - first:
-      213: 4750386194660374605
-    second: Monster Slayer-Sheet_5
-  - first:
-      213: 8666857971049487815
-    second: Monster Slayer-Sheet_6
-  - first:
-      213: 9021347396257362317
-    second: Monster Slayer-Sheet_7
-  - first:
-      213: 4086942064449760544
-    second: Monster Slayer-Sheet_8
-  - first:
-      213: -3113345415180795829
-    second: Monster Slayer-Sheet_9
-  - first:
-      213: 169214138788704798
-    second: Monster Slayer-Sheet_10
-  - first:
-      213: -2931172350359895994
-    second: Monster Slayer-Sheet_11
-  - first:
-      213: 8304699840754507490
-    second: Monster Slayer-Sheet_12
-  - first:
-      213: 5267439609237367551
-    second: Monster Slayer-Sheet_13
-  - first:
-      213: -8504797971739262048
-    second: Monster Slayer-Sheet_14
-  - first:
-      213: 4413074173335249419
-    second: Monster Slayer-Sheet_15
-  - first:
-      213: -757144387051593753
-    second: Monster Slayer-Sheet_16
-  - first:
-      213: -8495751805645151557
-    second: Monster Slayer-Sheet_17
-  - first:
-      213: 6696983447854205783
-    second: Monster Slayer-Sheet_18
-  - first:
-      213: -1960006002538949749
-    second: Monster Slayer-Sheet_19
-  - first:
-      213: 5453675361669805822
-    second: Monster Slayer-Sheet_20
-  - first:
-      213: 8119370341078765712
-    second: Monster Slayer-Sheet_21
-  - first:
-      213: 3533388466117050104
-    second: Monster Slayer-Sheet_22
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -109,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,43 +64,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,133 +73,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1087
-        height: 1920
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb3464a45855026f0800000000000000
-      internalID: -711474710159408193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 147
-        width: 1098
-        height: 1760
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e19d348de8b60db30800000000000000
-      internalID: 4310063104651417886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 2268
-        y: 373
-        width: 915
-        height: 1547
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee12a58f05e8e7d50800000000000000
-      internalID: 6736978571008025070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 3788
-        y: 732
-        width: 661
-        height: 1041
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08c9c9715563dde30800000000000000
-      internalID: 4529836539300846720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 5223
-        y: 1203
-        width: 1063
-        height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 489b0f1c0b5d7ebe0800000000000000
-      internalID: -1447953800031585916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Monster Slayer-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 9361
-        y: 513
-        width: 2119
-        height: 648
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d48b6ae4313cce140800000000000000
-      internalID: 4750386194660374605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

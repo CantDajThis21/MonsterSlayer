@@ -1,37 +1,7 @@
 fileFormatVersion: 2
 guid: 1205e26f01af2f248be890bcfb4fc547
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8329452249043091589
-    second: Sky Sprite Sheet_0
-  - first:
-      213: 4764412352023639552
-    second: Sky Sprite Sheet_1
-  - first:
-      213: -4736525681565864832
-    second: Sky Sprite Sheet_2
-  - first:
-      213: -6786179477902901864
-    second: Sky Sprite Sheet_3
-  - first:
-      213: 8113053064011880708
-    second: Sky Sprite Sheet_4
-  - first:
-      213: 2610251063332694994
-    second: Sky Sprite Sheet_5
-  - first:
-      213: -4530793507625968178
-    second: Sky Sprite Sheet_6
-  - first:
-      213: 7864556982308943903
-    second: Sky Sprite Sheet_7
-  - first:
-      213: -4738364063753091493
-    second: Sky Sprite Sheet_8
-  - first:
-      213: -7312031016426329141
-    second: Sky Sprite Sheet_9
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -70,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -92,45 +62,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 1
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,217 +73,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 580cacd60b8289370800000000000000
-      internalID: 8329452249043091589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0063add8ac79e1240800000000000000
-      internalID: 4764412352023639552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08c60c0ecfa744eb0800000000000000
-      internalID: -4736525681565864832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89d3d8538b5a2d1a0800000000000000
-      internalID: -6786179477902901864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 2880
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4099254e6ca579070800000000000000
-      internalID: 8113053064011880708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dbe78c2389793420800000000000000
-      internalID: 2610251063332694994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 4320
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecdde4b5f436f11c0800000000000000
-      internalID: -4530793507625968178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 5040
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f18b75e38e4842d60800000000000000
-      internalID: 7864556982308943903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b56458b2df2fd3eb0800000000000000
-      internalID: -4738364063753091493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sky Sprite Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 6480
-        y: 0
-        width: 720
-        height: 1280
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bcb25470882768a90800000000000000
-      internalID: -7312031016426329141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

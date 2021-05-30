@@ -5,13 +5,18 @@ ScriptsOnlyBuild:
     - CharacterBattleAnimator
     - CharacterInfosController
     - EnemyCharacterDatas
+    - EnemyPooler
+    - EnemySpawner
     - GameController
     - HPSlider
     - ItemsBattle
     - ItemsUI
     - MPSlider
     - MainMenu
+    - ScrollScript
     - SpellsBattle
+    - Upgrades
+    - UpgradesUIManager
     - WeaponBattle
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -32,6 +37,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -108,47 +119,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12482}
     - Class: 114
-      Script: {instanceID: 12522}
+      Script: {instanceID: 12508}
     - Class: 114
-      Script: {instanceID: 12536}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12948}
+      Script: {instanceID: 12770}
     - Class: 114
-      Script: {instanceID: 13182}
+      Script: {instanceID: 12952}
     - Class: 114
-      Script: {instanceID: 13228}
+      Script: {instanceID: 13186}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 13232}
     - Class: 114
-      Script: {instanceID: 13566}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 13854}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13858}
     - Class: 114
-      Script: {instanceID: 14342}
+      Script: {instanceID: 13880}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14260}
     - Class: 114
-      Script: {instanceID: 14380}
+      Script: {instanceID: 14346}
     - Class: 114
-      Script: {instanceID: 14718}
+      Script: {instanceID: 14382}
     - Class: 114
-      Script: {instanceID: 14908}
+      Script: {instanceID: 14384}
     - Class: 114
-      Script: {instanceID: 14964}
+      Script: {instanceID: 14722}
     - Class: 114
-      Script: {instanceID: 15118}
+      Script: {instanceID: 14912}
     - Class: 114
-      Script: {instanceID: 15168}
+      Script: {instanceID: 14968}
     - Class: 114
-      Script: {instanceID: 15194}
+      Script: {instanceID: 15122}
+    - Class: 114
+      Script: {instanceID: 15172}
+    - Class: 114
+      Script: {instanceID: 15198}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -201,20 +216,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11352}
     - Class: 114
-      Script: {instanceID: 12522}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13098}
     - Class: 114
-      Script: {instanceID: 14048}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 14258}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14052}
     - Class: 114
-      Script: {instanceID: 15118}
+      Script: {instanceID: 14260}
+    - Class: 114
+      Script: {instanceID: 14382}
+    - Class: 114
+      Script: {instanceID: 15122}
+    - Class: 114
+      Script: {instanceID: 37426}
+    - Class: 114
+      Script: {instanceID: 38816}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -611,6 +636,12 @@ ScriptsOnlyBuild:
     className: SoundManager
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScrollScript
+  - hash:
+      serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -743,6 +774,12 @@ ScriptsOnlyBuild:
     className: BattleController
   - hash:
       serializedVersion: 2
+      Hash: 0fffa0fd3934c45c0b52642de213018c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpgradesUIManager
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -779,7 +816,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 165b616756b42151f8c72d39b5a20613
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Upgrades
@@ -1079,7 +1116,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 796fd80d803a9e765429509d047f1226
+      Hash: 79c9d6da412e487a68ac491309a9e02b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameController
@@ -1437,6 +1474,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6a1c80ac1234d1b3f0fa8d40010fb7c5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyPooler
+  - hash:
+      serializedVersion: 2
+      Hash: 1a1c479c43c666a056c1ae346e17c646
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemySpawner
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
