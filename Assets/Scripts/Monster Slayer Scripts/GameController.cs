@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using PlayFab;
+using PlayFab.ClientModels;
 using BreakInfinity;
 
 
@@ -12,7 +14,8 @@ public class GameController : MonoBehaviour
     public Upgrades upgrades;
     public GameValues gamedata;
     public Abbreviations ab;
-
+    public ObjectPooler objpool;
+    public PlayFabManager playfab;
 
     public TMP_Text moneytxt;
     public TMP_Text dpstxt;
@@ -22,12 +25,14 @@ public class GameController : MonoBehaviour
     public TMP_Text timertext;
 
     public float timer;
+    public int stage;
 
     public Image healthbar;
     public Image timericon;
 
     public void Start()
     {
+        // playfab = new PlayFabManager();
         gamedata = new GameValues();
         ab = new Abbreviations();
         timertext.text = timer.ToString("0");
@@ -37,6 +42,7 @@ public class GameController : MonoBehaviour
 
     public void Update()
     {   
+        stage = gamedata.stage;
         moneytxt.text = "" + " " + ab.Abbrevs(gamedata.money);
         stagetxt.text = "" + gamedata.stage;
         killstxt.text = gamedata.kills + "/" + gamedata.killsMax;
@@ -121,7 +127,9 @@ public class GameController : MonoBehaviour
             
         }
      }
-
+    public void LeaderBoardButton() {
+        playfab.SendLeaderboard(gamedata.stage);
+    }
 }
 
 

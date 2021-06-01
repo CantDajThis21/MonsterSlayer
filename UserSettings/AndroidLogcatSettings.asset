@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "XEC6R20707008904",
         "name": "com.DefaultCompany.MonsterSlayer",
-        "processId": 30036,
+        "processId": 16336,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -192,6 +192,24 @@
             "deviceId": "XEC6R20707008904",
             "name": "com.DefaultCompany.MonsterSlayer",
             "processId": 30036,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 18920,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 15735,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 16336,
             "exited": false
         }
     ],
