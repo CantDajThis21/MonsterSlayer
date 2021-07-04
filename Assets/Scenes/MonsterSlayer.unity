@@ -3958,7 +3958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1610067491
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4867,7 +4867,7 @@ MonoBehaviour:
   - tag: Forest Enemy Slime
     prefab: {fileID: 2924879217288271925, guid: 6f1adde0c216aca44b38bd4289851555,
       type: 3}
-    size: 1
+    size: 1000
   - tag: Forest Enemy Snake
     prefab: {fileID: 4142481714504760322, guid: 264dbed626bd09d4589651c14cd6f7d9,
       type: 3}

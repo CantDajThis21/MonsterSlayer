@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "XEC6R20707008904",
         "name": "com.DefaultCompany.MonsterSlayer",
-        "processId": 16336,
+        "processId": 19488,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -210,6 +210,12 @@
             "deviceId": "XEC6R20707008904",
             "name": "com.DefaultCompany.MonsterSlayer",
             "processId": 16336,
+            "exited": false
+        },
+        {
+            "deviceId": "XEC6R20707008904",
+            "name": "com.DefaultCompany.MonsterSlayer",
+            "processId": 19488,
             "exited": false
         }
     ],
